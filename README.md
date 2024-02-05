@@ -1,88 +1,83 @@
-<a href="https://site.mockito.org">
-<img src="https://raw.githubusercontent.com/mockito/mockito/main/src/javadoc/org/mockito/logo.png"
-     srcset="https://raw.githubusercontent.com/mockito/mockito/main/src/javadoc/org/mockito/logo@2x.png 2x"
-     alt="Mockito" />
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><a href="https://site.mockito.org" rel="nofollow">
+<img src="https://raw.githubusercontent.com/mockito/mockito/main/src/javadoc/org/mockito/logo.png" alt="莫基托" style="max-width: 100%;">
 </a>
-
-Most popular mocking framework for Java
-
-[![CI](https://github.com/mockito/mockito/workflows/CI/badge.svg)](https://github.com/mockito/mockito/actions?query=workflow%3ACI)
-[![Coverage Status](https://img.shields.io/codecov/c/github/mockito/mockito.svg)](https://codecov.io/github/mockito/mockito)
-[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/mockito/mockito/blob/main/LICENSE)
-
-[![Release Notes](https://img.shields.io/badge/release%20notes-5.x-yellow.svg)](https://github.com/mockito/mockito/releases/)
-[![Maven Central](https://img.shields.io/maven-central/v/org.mockito/mockito-core.svg)](https://search.maven.org/artifact/org.mockito/mockito-core/)
-[![Javadoc](https://www.javadoc.io/badge/org.mockito/mockito-core.svg)](https://www.javadoc.io/doc/org.mockito/mockito-core)
-
-
-## Current version is 5.x
-Still on Mockito 1.x? See [what's new](https://github.com/mockito/mockito/wiki/What%27s-new-in-Mockito-2) in Mockito 2!
-[Mockito 3](https://github.com/mockito/mockito/releases/tag/v3.0.0) does not introduce any breaking API changes, but now requires Java 8 over Java 6 for Mockito 2.
-[Mockito 4](https://github.com/mockito/mockito/releases/tag/v4.0.0) removes deprecated API.
-[Mockito 5](https://github.com/mockito/mockito/releases/tag/v5.0.0) switches the default mockmaker to mockito-inline, and now requires Java 11.
-Only one major version is supported at a time, and changes are not backported to older versions.
-
-## Mockito for enterprise
-
-Available as part of the [Tidelift](https://tidelift.com/subscription/pkg/maven-org-mockito-mockito-core) Subscription.
-
-The maintainers of org.mockito:mockito-core and thousands of other packages are working with Tidelift to deliver
-commercial support and maintenance for the open source dependencies you use to build your applications. Save time,
-reduce risk, and improve code health, while paying the maintainers of the exact dependencies you use.
-[Learn more.](https://tidelift.com/subscription/pkg/maven-org-mockito-mockito-core?utm_source=maven-org-mockito-mockito-core&utm_medium=referral&utm_campaign=enterprise&utm_term=repo)
-
-## Development
-
-Mockito publishes every change as a `-SNAPSHOT` version to a public Sonatype repository. Roughly once a month, we
-publish a new minor or patch version to Maven Central. For release automation we use Shipkit
-library (http://shipkit.org), Gradle Nexus [Publish Plugin](https://github.com/gradle-nexus/publish-plugin).
-Fully automated releases are awesome, and you should do that for your libraries, too!
-See the [latest release notes](https://github.com/mockito/mockito/releases/)
-and [latest documentation](https://javadoc.io/page/org.mockito/mockito-core/latest/org/mockito/Mockito.html). Docs in
-javadoc.io are available 24h after release. Read also
-about [semantic versioning in Mockito](https://github.com/mockito/mockito/wiki/Semantic-Versioning).
-
-Older 1.x and 2.x releases are available in
-[Central Repository](https://search.maven.org/artifact/org.mockito/mockito-core/1.10.19/jar)
-and [javadoc.io](https://javadoc.io/doc/org.mockito/mockito-core/1.10.19/org/mockito/Mockito.html) (documentation).
-
-## More information
-
-All you want to know about Mockito is hosted at [The Mockito Site](https://site.mockito.org) which is [Open Source](https://github.com/mockito/mockito.github.io) and likes [pull requests](https://github.com/mockito/mockito.github.io/pulls), too.
-
-Want to contribute? Take a look at the [Contributing Guide](https://github.com/mockito/mockito/blob/main/.github/CONTRIBUTING.md).
-
-Enjoy Mockito!
-
-## Need help?
-
-* Search / Ask question on [stackoverflow](https://stackoverflow.com/questions/tagged/mockito)
-* Go to the [mockito mailing-list](https://groups.google.com/group/mockito) (moderated)
-* Open a ticket in GitHub [issue tracker](https://github.com/mockito/mockito/issues)
-
-## How to develop Mockito?
-
-To build locally:
-
-     ./gradlew build
-
-To develop in IntelliJ IDEA you can use built-in Gradle import wizard in IDEA. Alternatively generate the importable
-IDEA metadata files using:
-
-     ./gradlew idea
-
-Then, _open_ the generated *.ipr file in IDEA.
-
-## How to release new version?
-
-1. Every change on the main development branch is released as `-SNAPSHOT` version to Sonatype snapshot repo
-   at https://s01.oss.sonatype.org/content/repositories/snapshots/org/mockito/mockito-core.
-2. In order to release a non-snapshot version to Maven Central push an annotated tag, for example:
-
-```
-git tag -a -m "Release 3.4.5" v3.4.5
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最流行的 Java 模拟框架</font></font></p>
+<p dir="auto"><a href="https://github.com/mockito/mockito/actions?query=workflow%3ACI"><img src="https://github.com/mockito/mockito/workflows/CI/badge.svg" alt="CI" style="max-width: 100%;"></a>
+<a href="https://codecov.io/github/mockito/mockito" rel="nofollow"><img src="https://camo.githubusercontent.com/1ae602b28d46a41ad2ed69f4963be4bbf5f7c0deedcacf731e5450d99c1d4783/68747470733a2f2f696d672e736869656c64732e696f2f636f6465636f762f632f6769746875622f6d6f636b69746f2f6d6f636b69746f2e737667" alt="覆盖状态" data-canonical-src="https://img.shields.io/codecov/c/github/mockito/mockito.svg" style="max-width: 100%;"></a>
+<a href="https://github.com/mockito/mockito/blob/main/LICENSE"><img src="https://camo.githubusercontent.com/7edda6b40df66cdf6d87ee014ce8a73af8830d12f325162978d3b72836ea332d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d677265656e2e737667" alt="麻省理工学院许可证" data-canonical-src="https://img.shields.io/badge/license-MIT-green.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://github.com/mockito/mockito/releases/"><img src="https://camo.githubusercontent.com/70796f4b9e4f969c80583a35005e82aabfe447f51244cf662090bb46d81e3481/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656c656173652532306e6f7465732d352e782d79656c6c6f772e737667" alt="发行说明" data-canonical-src="https://img.shields.io/badge/release%20notes-5.x-yellow.svg" style="max-width: 100%;"></a>
+<a href="https://search.maven.org/artifact/org.mockito/mockito-core/" rel="nofollow"><img src="https://camo.githubusercontent.com/0e1d829143616f58331a0f45af89ee5c6684088225f044b037f26c48abce39f0/68747470733a2f2f696d672e736869656c64732e696f2f6d6176656e2d63656e7472616c2f762f6f72672e6d6f636b69746f2f6d6f636b69746f2d636f72652e737667" alt="梅文中心" data-canonical-src="https://img.shields.io/maven-central/v/org.mockito/mockito-core.svg" style="max-width: 100%;"></a>
+<a href="https://www.javadoc.io/doc/org.mockito/mockito-core" rel="nofollow"><img src="https://camo.githubusercontent.com/0a79da2640bebf4a7960038d403e88246843038f9600cc5b9c8ad558b8855c10/68747470733a2f2f7777772e6a617661646f632e696f2f62616467652f6f72672e6d6f636b69746f2f6d6f636b69746f2d636f72652e737667" alt="Java文档" data-canonical-src="https://www.javadoc.io/badge/org.mockito/mockito-core.svg" style="max-width: 100%;"></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-current-version-is-5x" class="anchor" aria-hidden="true" tabindex="-1" href="#current-version-is-5x"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当前版本是5.x</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还在 Mockito 1.x 上吗？了解</font><font style="vertical-align: inherit;">Mockito 2 中
+</font></font><a href="https://github.com/mockito/mockito/wiki/What%27s-new-in-Mockito-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的新增功能！ </font></font></a><font style="vertical-align: inherit;"></font><a href="https://github.com/mockito/mockito/releases/tag/v3.0.0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mockito 3</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有引入任何重大 API 更改，但现在 Mockito 2 需要 Java 8 而不是 Java 6。Mockito
+ </font></font><a href="https://github.com/mockito/mockito/releases/tag/v4.0.0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">4</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">删除了已弃用的 API。
+ </font></font><a href="https://github.com/mockito/mockito/releases/tag/v5.0.0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mockito 5</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将默认的mockmaker切换为mockito-inline，现在需要Java 11。一次仅支持一个主要版本，并且更改不会向后移植到旧版本。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-mockito-for-enterprise" class="anchor" aria-hidden="true" tabindex="-1" href="#mockito-for-enterprise"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业版 Mockito</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为</font></font><a href="https://tidelift.com/subscription/pkg/maven-org-mockito-mockito-core" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tidelift</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">订阅的一部分提供。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">org.mockito:mockito-core 和数千个其他软件包的维护者正在与 Tidelift 合作，为您用于构建应用程序的开源依赖项提供商业支持和维护。节省时间、降低风险并改善代码运行状况，同时向您使用的确切依赖项的维护者付费。
+</font></font><a href="https://tidelift.com/subscription/pkg/maven-org-mockito-mockito-core?utm_source=maven-org-mockito-mockito-core&amp;utm_medium=referral&amp;utm_campaign=enterprise&amp;utm_term=repo" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解更多。</font></font></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-development" class="anchor" aria-hidden="true" tabindex="-1" href="#development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发展</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mockito 将每个更改作为</font></font><code>-SNAPSHOT</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版本发布到公共 Sonatype 存储库。我们大约每月一次向 Maven Central 发布新的次要版本或补丁版本。对于发布自动化，我们使用 Shipkit 库 ( </font></font><a href="http://shipkit.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://shipkit.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )、Gradle Nexus </font></font><a href="https://github.com/gradle-nexus/publish-plugin"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Publish Plugin</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。完全自动化的发布非常棒，您也应该为您的库这样做！请参阅</font></font><a href="https://github.com/mockito/mockito/releases/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最新的发行说明</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+和</font></font><a href="https://javadoc.io/page/org.mockito/mockito-core/latest/org/mockito/Mockito.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最新文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 javadoc.io 中的文档在发布后 24 小时内可用。另请阅读</font></font><a href="https://github.com/mockito/mockito/wiki/Semantic-Versioning"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mockito 中的语义版本</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">控制。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://search.maven.org/artifact/org.mockito/mockito-core/1.10.19/jar" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">较旧的 1.x 和 2.x 版本可在中央存储库</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+和</font></font><a href="https://javadoc.io/doc/org.mockito/mockito-core/1.10.19/org/mockito/Mockito.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">javadoc.io</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（文档）</font><font style="vertical-align: inherit;">中找到
+。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-more-information" class="anchor" aria-hidden="true" tabindex="-1" href="#more-information"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多信息</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您想了解的有关 Mockito 的所有信息都托管在</font></font><a href="https://site.mockito.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mockito 站点</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上，该站点是</font></font><a href="https://github.com/mockito/mockito.github.io"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并且也喜欢</font></font><a href="https://github.com/mockito/mockito.github.io/pulls"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">拉取请求</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">想做出贡献吗？查看</font></font><a href="https://github.com/mockito/mockito/blob/main/.github/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">享受莫基托！</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-need-help" class="anchor" aria-hidden="true" tabindex="-1" href="#need-help"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要帮忙？</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><a href="https://stackoverflow.com/questions/tagged/mockito" rel="nofollow"><font style="vertical-align: inherit;">在stackoverflow</font></a><font style="vertical-align: inherit;">上搜索/提问</font></font><a href="https://stackoverflow.com/questions/tagged/mockito" rel="nofollow"><font style="vertical-align: inherit;"></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">转到</font></font><a href="https://groups.google.com/group/mockito" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mockito邮件列表</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（审核）</font></font></li>
+<li><font style="vertical-align: inherit;"><a href="https://github.com/mockito/mockito/issues"><font style="vertical-align: inherit;">在 GitHub问题跟踪器</font></a><font style="vertical-align: inherit;">中打开票证</font></font><a href="https://github.com/mockito/mockito/issues"><font style="vertical-align: inherit;"></font></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-how-to-develop-mockito" class="anchor" aria-hidden="true" tabindex="-1" href="#how-to-develop-mockito"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何开发Mockito？</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本地构建：</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code> ./gradlew build
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value=" ./gradlew build" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要在 IntelliJ IDEA 中进行开发，您可以使用 IDEA 中内置的 Gradle 导入向导。或者使用以下命令生成可导入的 IDEA 元数据文件：</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code> ./gradlew idea
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value=" ./gradlew idea" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，在IDEA中</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打开</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成的*.ipr文件。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-how-to-release-new-version" class="anchor" aria-hidden="true" tabindex="-1" href="#how-to-release-new-version"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何发布新版本？</font></font></h2>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主开发分支上的每个更改都会作为</font></font><code>-SNAPSHOT</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sonatype 快照存储库的版本发布，网址为</font></font><a href="https://s01.oss.sonatype.org/content/repositories/snapshots/org/mockito/mockito-core" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://s01.oss.sonatype.org/content/repositories/snapshots/org/mockito/mockito-core</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了向 Maven Central 发布非快照版本，请推送带注释的标签，例如：</font></font></li>
+</ol>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>git tag -a -m "Release 3.4.5" v3.4.5
 git push origin v3.4.5
-```
-
-3. At the moment, you **may not create releases from GitHub Web UI**. Doing so will make the CI build fail because the
-   CI creates the changelog and posts to GitHub releases. We'll support this in the future.
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git tag -a -m &quot;Release 3.4.5&quot; v3.4.5
+git push origin v3.4.5" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<ol start="3" dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目前，您</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无法从 GitHub Web UI 创建版本</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。这样做会使 CI 构建失败，因为 CI 创建变更日志并将其发布到 GitHub 版本。我们将来会支持这一点。</font></font></li>
+</ol>
+</article></div>
